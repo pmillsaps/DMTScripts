@@ -6,4 +6,5 @@ Set CompanyFolder=C:\Dropbox\EpicorImplementation\3-VF
 Call %ScriptFolder%\Setup_Prod.bat
 Set CompanyPW=%PW%
 
-Call %ScriptFolder%\_Load_1.bat
+Call %ScriptFolder%\_Load_Shell.bat
+Call %ScriptFolder%\_Load_GL

@@ -6,4 +6,4 @@ Set CompanyFolder=C:\Dropbox\VFR
 Set CompanyPW=%PWVDK%
 Call %ScriptFolder%\Setup_Prod.bat
 
-Call %ScriptFolder%\_Load_1.bat
+Call %ScriptFolder%\_Load_Shell.bat

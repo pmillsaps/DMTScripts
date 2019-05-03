@@ -6,4 +6,4 @@ Set CompanyFolder=C:\Dropbox\EpicorImplementation\2-VCN
 Call %ScriptFolder%\Setup_Test.bat
 Set CompanyPW=%PW%
 
-Call %ScriptFolder%\_Load_1.bat
+Call %ScriptFolder%\_Load_Shell.bat

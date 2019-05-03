@@ -6,6 +6,6 @@ Set CompanyFolder=C:\Dropbox\EpicorImplementation\1-ASPN
 Call %ScriptFolder%\Setup_Test.bat
 Set CompanyPW=%PW%
 
-Call %ScriptFolder%\_Load_1.bat
+Call %ScriptFolder%\_Load_Shell.bat
 
 Call %ScriptFolder%\_DMT_VDK_Test_Load_Additional.bat

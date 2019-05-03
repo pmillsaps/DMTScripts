@@ -6,6 +6,6 @@ Set CompanyFolder=C:\Dropbox\VDK
 Set CompanyPW=%PWVDK%
 Call %ScriptFolder%\Setup_Test.bat
 
-Call %ScriptFolder%\_Load_1.bat
-
 Call %ScriptFolder%\_DMT_VDK_Test_Load_Additional.bat
+
+Call %ScriptFolder%\_Load_Shell.bat
