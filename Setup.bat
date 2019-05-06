@@ -1,3 +1,4 @@
+Set ScriptFolder=C:\Dropbox\EpicorImplementation\Z_Scripts
 SET EXT=.xlsx
 SET EXT2=.csv
 Set CompleteLog=.CompleteLog.txt

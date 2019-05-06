@@ -1,9 +1,12 @@
+@Echo off
 REM ScriptFolder is where the scripts are located
 Set ScriptFolder=C:\Dropbox\EpicorImplementation\Z_Scripts
 Call %ScriptFolder%\Setup.bat
-SET Company=VMW
-Set CompanyFolder=C:\Dropbox\EpicorImplementation\4-VMW
+SET Company=VDK
+Set CompanyFolder=C:\Dropbox\VDK
+Set CompanyPW=%PWVDK%
 Call %ScriptFolder%\Setup_Test.bat
-Set CompanyPW=%PW%
 
-Call %ScriptFolder%\_Load_Shell.bat
+Call %ScriptFolder%\_VDK_Test_Load_Additional.bat
+
+Call %ScriptFolder%\Load_Shell.bat
