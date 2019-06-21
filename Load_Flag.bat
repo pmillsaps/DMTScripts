@@ -15,6 +15,6 @@ Echo %Folder%
 
 echo 1 > %Folder%%Prog%%Counter%.flg
 
-%DMT_Program% -Import=%Program% -ConfigValue=%ConfigValue% -User=DMT_%Company% -pass=%CompanyPW% -DisableUpdateService -Add -Update -Source="%Folder%%Prog%%Counter%%EXT%"
+%DMT_Program% -Import=%Program% -ConfigValue=%ConfigValue% -User=DMT_%Company% -pass=%CompanyPW% -DisableUpdateService -Add -Update -Source="%Folder%\%Prog%%Counter%%EXT%"
 
 del %Folder%%Prog%%Counter%.flg

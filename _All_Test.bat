@@ -1,6 +1,0 @@
-START "Aspen Import" CMD.exe /c 			"C:\Dropbox\EpicorImplementation\Z_Scripts\_ASPN_Test_Load.bat"
-REM START "Versalift China" CMD.exe /c 		"C:\Dropbox\EpicorImplementation\Z_Scripts\_VCN_Test_Load.bat"
-REM START "Versalift Forestry" CMD.exe /c 	"C:\Dropbox\EpicorImplementation\Z_Scripts\_VF_Test_Load.bat"
-START "Versalift Midwest" CMD.exe /c 		"C:\Dropbox\EpicorImplementation\Z_Scripts\_VMW_Test_Load.bat"
-START "Versalift Denmark" CMD.exe /c 		"C:\Dropbox\EpicorImplementation\Z_Scripts\_VDK_Test_Load.bat"
-START "Versalift France" CMD.exe /c 		"C:\Dropbox\EpicorImplementation\Z_Scripts\_VFR_Test_Load.bat"

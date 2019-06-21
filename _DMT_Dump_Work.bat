@@ -1,1 +1,0 @@
-%DMT_Program% -NoUI -ConfigValue=%ConfigValue% -User=DMT_%Company% -pass=%PW% -Export -BAQ="%Prog%" -Target="%OutputFolder%\%Prog%.csv"
