@@ -1,380 +1,494 @@
-Set Prog=DMT-00-BankAccount
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-BankAccount_NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-BankBranch
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-CC_Entity_GLC
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-Country
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-Currency
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-Currency_NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-Exchange_Rate
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-Exchange_Rate_Group
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-FiscalCalendar
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-GL_Account
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-GL_Book
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-GLControl
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-Journal_Code
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-JournalCode
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-TaskSet
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-TaskSetMilestone
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-TaskType
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-00-User
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-01-CC_XaSyst
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-02-CC_Accounts_Payable
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-02-CC_Accounts_Receivable
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-02-CC_BMSyst
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-02-CC_Field_Service
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-02-CC_GL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-02-CC_Production
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-02-CC_Quoting
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-02-CC_XBSyst
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-02a-ProductionCalendars
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-03-CompanyGeneral
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-04-CompanyMaintenance
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-04-Site_Maintenance
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-05-Warehouses
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-05-Warehouses_NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-06-WarehouseBin
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-07-CustomerGroup
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-08-DeliveryType
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-09-IndirectLaborAccount-Ex
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-10-FOB
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-11-MiscChrg
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-11-MiscChrg_NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-12-MiscChargeCredit-NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-12-MiscChargeCredit-Purcha
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-13-PaymentMethod
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-14-PurTerms
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-14-PurTerms-NoDtl
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-15-Terms
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-15-Terms-NoDtl
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-16-SalesCat
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-16-SalesCat-NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-17-ShipVia
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-18-SupplierGroup
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-20-MarketingActivityType
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-21-MarketingCampaign
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-22-MarketingEvent
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-23-Topic
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-24-ReasonCodes
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-24-ReasonCodes-NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-25-RoleCode
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-26-Sales_Region
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-26-Work_Force
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-27-Sales_Territory
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-28-Territory_Sales_Person
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-29-Service_Call_Type
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-29-Service_Call_Type-NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-32-PlantConfiguration
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-32-PlantConfiguration-Smal
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-33-CC_CRM_Config
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-46-ABC_Code_Current
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-50-IndirectLaborCode
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-51-ProductGroups
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-51-ProductGroups-NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-55-UOM
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-56-UOMClassConv
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-61-JCShift
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-62-JCDept
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-63-Employee
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-66-Buyers
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-67-BuyerAuthorizeUser
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-68-PartClass
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-68-PartClass-NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-69-ResourceType
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-70-ResourceGroups
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-71-Operations
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-75-Supplier
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-76-SupplierContact
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-77-Supplier_PriceList
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-77-SupplierPP
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-87-Customers
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-87-Customers-Small
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-88-CustomerShipTo
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-88-CustomerShipToSmall
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-89-CustomerContacts
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-90-EngineeringWorkbenchGro
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-93-Part
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-94-PartPlant
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-95-PartsWhse
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-96-PartRevision
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-97-BillOfOperations
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-98-BillOfMaterials
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-99-AgingReportFormat
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-99-ExternalCompany
-Call %ScriptFolder%\_DMT_Dump_Work.bat
-
-Set Prog=DMT-99-InternalPartCrossRefere
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+@ECHO OFF
+
+Set Prog=CustomerContact_CUS_DMT
+Set FileName=CustomerContact_CUS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=CustomerGroup_CUS_DMT
+Set FileName=CustomerGroup_CUS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=Customer_CUS_DMT
+Set FileName=Customer_CUS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=CustomerShipTo_CUS_DMT
+Set FileName=CustomerShipTo_CUS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=CustomerShipTo_Small_CUS_DMT
+Set FileName=CustomerShipTo_Small_CUS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=Customer_Small_CUS_DMT
+Set FileName=Customer_Small_CUS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=BillOfMaterials_ENG_DMT
+Set FileName=BillOfMaterials_ENG_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=BillOfOperations_ENG_DMT
+Set FileName=BillOfOperations_ENG_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=EngineeringWorkbenchGroup_ENG
+Set FileName=EngineeringWorkbenchGroup_ENG
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=Operations_ENG_DMT
+Set FileName=Operations_ENG_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=ResourceGroup_ENG_DMT
+Set FileName=ResourceGroup_ENG_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=ResourceType_ENG_DMT
+Set FileName=ResourceType_ENG_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=AccountSegmentValues_FIN_DMT
+Set FileName=AccountSegmentValues_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=AgingReportFormat_FIN_DMT
+Set FileName=AgingReportFormat_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=BankAccount_FIN_DMT
+Set FileName=BankAccount_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=BankAccount_GL_FIN_DMT
+Set FileName=BankAccount_GL_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=BankBranch_FIN_DMT
+Set FileName=BankBranch_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=Currency_FIN_DMT
+Set FileName=Currency_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=Currency_GL_FIN_DMT
+Set FileName=Currency_GL_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=ExchangeRate_FIN_DMT
+Set FileName=ExchangeRate_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=FiscalCalendar_FIN_DMT
+Set FileName=FiscalCalendar_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-FIN-GL_Account
+Set FileName=GLAccount_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-FIN-GL_Book
+Set FileName=GLBook_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-FIN-GLControl
+Set FileName=GLControl_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-FIN-JournalCode
+Set FileName=JournalCode_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-FIN-PaymentMethod
+Set FileName=PaymentMethod_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-FIN-Terms
+Set FileName=Terms_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-FIN-Terms-Dtl
+Set FileName=Terms_Dtl_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=ProductTaxCategory_FIN_DMT
+Set FileName=ProductTaxCategory_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=TaxType_GL_FIN_DMT
+Set FileName=TaxType_GL_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=TaxAuthority_FIN_DMT
+Set FileName=TaxAuthority_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=TaxLiability_FIN_DMT
+Set FileName=TaxLiability_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=TaxJurisdiction_FIN_DMT
+Set FileName=TaxJurisdiction_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=TaxType_GL_FIN_DMT
+Set FileName=TaxType_GL_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=TaxType_Small_FIN_DMT
+Set FileName=TaxType_Small_FIN_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-FS-ServiceCallType
+Set FileName=ServiceCallType_FS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-FS-ServiceCallType-GL
+Set FileName=ServiceCallType_GL_FS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL01-CostAdjustments
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=CostAdjustments_GoLive_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL02-QuantityAdjustments
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=QuantityAdjustments_GoLive_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL05-OrderHeader
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL06-OrderDetail
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL07-OrderReleases
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL10-JobHeaders
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL11-JobOperation
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL12-JobMaterial
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL13-JobProd
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL14-JobHeadersEngineered
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL20-POHeader
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL21-PODetails
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL40-ServiceCallCenterComb
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL41-FieldServiceJobOperat
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL42-FieldServiceJobMateri
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
 Set Prog=DMT-GL99-CustomerAltBill
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set FileName=
+REM Call "%ScriptFolder%DMT_Dump_Work.bat"
 
-Set Prog=DMT-SupplierPriceList_FromPart
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set Prog=DMT-INV-ABC_Code_Current
+Set FileName=ABCCode_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
 
-Set Prog=DMT-TX00-ProductTaxCategory
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set Prog=DMT-INV-DeliveryType
+Set FileName=DeliveryType_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
 
-Set Prog=DMT-TX00-Tax_Authority
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set Prog=DMT-INV-InternalPartCrossRefer
+Set FileName=InternalPartCrossReference_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
 
-Set Prog=DMT-TX01-TaxLiability
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set Prog=DMT-INV-Part
+Set FileName=Part_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
 
-Set Prog=DMT-TX02-Tax_Jurisdiction
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set Prog=DMT-INV-Part_Combined
+Set FileName=PartCombined_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
 
-Set Prog=DMT-TX03-TaxType
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set Prog=DMT-INV-PartClass
+Set FileName=PartClass_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
 
-Set Prog=DMT-TX03-TaxType-NoGL
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set Prog=DMT-INV-PartClass-GL
+Set FileName=PartClass_GL_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
 
-Set Prog=DMT-TX03-TaxType-Small
-Call %ScriptFolder%\_DMT_Dump_Work.bat
+Set Prog=DMT-INV-PartPlant
+Set FileName=PartPlant_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-INV-PartRevision
+Set FileName=PartRevision_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=PartUOM_INV_DMT
+Set FileName=PartUOM_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-INV-PartWhse
+Set FileName=PartWhse_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-INV-ProductGroups
+Set FileName=ProductGroup_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-INV-ProductGroups-GL
+Set FileName=ProductGroup_GL_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-INV-ShipVia
+Set FileName=ShipVia_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-INV-UOM
+Set FileName=UOM_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-INV-UOMClassConv
+Set FileName=UOMCLass_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-INV-WarehouseBin
+Set FileName=WarehouseBin_INV-DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-INV-Warehouse-GL
+Set FileName=Warehouse_GL_INV_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-PRD-Employee
+Set FileName=Employee_PRD_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-PRD-JCDept
+Set FileName=Department_PRD_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-PRD-JCShift
+Set FileName=Shift_PRD_INV
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-PRD-ProductionCalendars
+Set FileName=ProductionCalendar_PRD_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-PUR-BuyerAuthorizeUser
+Set FileName=BuyerAuthorizedUser_PUR_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-PUR-Buyers
+Set FileName=Buyer_PUR_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-PUR-MiscChargeCredit-GL
+Set FileName=MiscellaneousChargeCredit_PUR_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-PUR-PurTerms
+Set FileName=PurchasingTerms_PUR_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-PUR-PurTerms-Dtl
+Set FileName=PurchasingTerms_Dtl_PUR_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SLS-MarketingActivityType
+Set FileName=MarketingActivityType_SLS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SLS-MarketingCampaign
+Set FileName=MarketingCampaign_SLS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SLS-MarketingEvent
+Set FileName=MarketingEvent_SLS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SLS-MiscChrg-GL
+Set FileName=MiscellaneousCharge_GL_SLS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SLS-Sales_Region
+Set FileName=SalesRegion_SLS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SLS-Sales_Territory
+Set FileName=SalesTerritory_SLS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SLS-SalesCat-GL
+Set FileName=SalesCategory_GL_SLS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SLS-Territory_Sales_Person
+Set FileName=SalesPerson_SLS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SLS-Topic
+Set FileName=Topic_SLS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SLS-Work_Force
+Set FileName=WorkForce_SLS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SUP-Supplier
+Set FileName=Supplier_SUP_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SUP-Supplier_PriceList
+Set FileName=SupplierPriceList_SUP_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SUP-SupplierContact
+Set FileName=SupplierContact_SUP_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SUP-SupplierGroup
+Set FileName=SupplierGroup_SUP_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SUP-SupplierPP
+Set FileName=SupplierPurchasePoint_SUP_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC_CRM_Config
+Set FileName=CCCRMConfig_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC_Entity_GLC
+Set FileName=CCEntityGLC_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC_GL
+Set FileName=CCGL_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC_Production
+Set FileName=CCProduction_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC_Quoting
+Set FileName=CCQuoting_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC_XBSyst
+Set FileName=CCXBSyst_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC-AccountsPayable
+Set FileName=CCAccountsPayable_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC-AccountsReceivable
+Set FileName=CCAccountsReceivable_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC-BMSyst
+Set FileName=CCBMSyst_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC-FieldService
+Set FileName=CCFieldService_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CC-XaSyst
+Set FileName=CCXaSyst_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-CompanyGeneral
+Set FileName=CompanyGeneral_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=CompanyMaintenance_SYS_DMT
+Set FileName=CompanyMaintenance_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-Country
+Set FileName=Country_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-ExternalCompany
+Set FileName=ExternalCompany_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-FOB
+Set FileName=FOB_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-IndirectLaborCode
+Set FileName=IndirectLaborCode_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-PersonContact
+Set FileName=PersonContact_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-PlantConfiguration
+Set FileName=PlantConfiguration_DMT_SYS
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-PlantConfiguration-Sma
+Set FileName=PlantConfiguration_Small_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-ReasonCodes
+Set FileName=ReasonCode_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-ReasonCodes-GL
+Set FileName=ReasonCode_GL_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-RoleCode
+Set FileName=RoleCode_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-Site_Maintenance
+Set FileName=SiteMaintenance_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-TaskSet
+Set FileName=TaskSet_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-TaskSetMilestone
+Set FileName=TaskSetMilestone_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-TaskType
+Set FileName=TaskType_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+
+Set Prog=DMT-SYS-User
+Set FileName=User_SYS_DMT
+Call "%ScriptFolder%DMT_Dump_Work.bat"
+

@@ -1,3 +1,0 @@
-Set Prog=ServiceCalls_TEMP
-Call %ScriptFolder%\_DMT_Dump_Test.bat
-
